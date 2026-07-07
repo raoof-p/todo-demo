@@ -14,7 +14,7 @@ export const PostCard = ({
       {post.title}
     </h5>
 
-    <p className="text-sm sm:text-base text-body">
+    <p className="text-sm sm:text-base text-body text-amber-50">
       {post.body}
     </p>
   </a>
