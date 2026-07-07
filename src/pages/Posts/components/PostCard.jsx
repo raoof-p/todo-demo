@@ -5,7 +5,7 @@ export const PostCard = ({
     post
 }) => {
   return (
-   <div className="flex justify-center px-4 py-6 ">
+   <div className="flex justify-center px-4 py-6 bg-black ">
   <a
     href="#"
     className="w-full max-w-lg p-4 sm:p-6   rounded-3xl  hover:bg-neutral-secondary-medium bg-neutral-primary-soft bg-blue-400"
