@@ -1,11 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 import { PostCard } from "./components/PostCard";
 import { useState } from "react";
 import axios from "axios";
 import { data } from "react-router-dom";
 
+
 export const Posts = () => {
-  const [PostList, setPostList] = useState([]);
+   const [TodoList, setTodoList] = useState([])
   const [isError, setIsError] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
